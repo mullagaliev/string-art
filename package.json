@@ -1,0 +1,21 @@
+{
+  "name": "StringArt",
+  "version": "1.0.0",
+  "description": "String Art generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Mullagaliev",
+  "license": "MIT",
+  "dependencies": {
+    "color-thief": "^2.2.5",
+    "delaunay-triangulate": "^1.1.6",
+    "get-pixels": "^3.3.2",
+    "handlebars": "^4.1.2",
+    "image-size": "^0.7.4",
+    "nanoid": "^2.0.3",
+    "rgb-hex": "^3.0.0"
+  }
+}
