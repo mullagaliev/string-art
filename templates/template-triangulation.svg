@@ -7,6 +7,6 @@
     width='{{ width }}'>
 
     {{# each polygons }}
-        <polygon points='{{ points }}' style='stroke-width:0.1;stroke:{{ strokeColor }};fill:{{ color }}' />
+        <polygon points='{{ points }}' style='box-sizing: border-box;stroke-width:{{strokeWidth}};stroke:{{ strokeColor }};fill:{{ color }}' />
     {{/each }}
 </svg>
