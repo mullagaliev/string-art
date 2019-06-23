@@ -5,6 +5,7 @@ const { convert } = require('convert-svg-to-jpeg');
 const rgbHex = require('rgb-hex');
 const nanoid = require('nanoid');
 const fs = require('fs');
+const { runAlog } = require('./alog2');
 
 const triangulate = require('delaunay-triangulate');
 
@@ -24,8 +25,15 @@ function getPosition(x, y, width, height, GRID_SIZE) {
   return pixelPosition;
 }
 
+function insideMask(image, ) {
+  return
+}
+
 class StringArt {
-  constructor() {
+  constructor() {}
+
+  static generateLinesAlog(imagePath) {
+    return runAlog(imagePath);
   }
 
   static generateTriangulation(image, size, type = 'jpg', successCb) {

@@ -10,6 +10,7 @@
   "author": "Andrew Mullagaliev",
   "license": "MIT",
   "dependencies": {
+    "child_process": "^1.0.2",
     "color-thief": "^2.2.5",
     "convert-svg-to-jpeg": "^0.5.0",
     "cors": "^2.8.5",

@@ -69,6 +69,7 @@ function startBot() {
       const image = fs.readFileSync(filePath);
       const size = sizeOf(filePath);
       const start = new Date().getTime();
+
       StringArt.generateTriangulation(image, size, type, async ({fileLink, file}) => {
         console.log('complete', fileLink);
         const end = new Date().getTime();
@@ -79,6 +80,7 @@ function startBot() {
           source: file
         });
       });
+      StringArt.generateLinesAlog(filePath);
     } catch (err) {
       console.log(err);
       ctx.reply('⚠️ Ошибка обработки файла');
