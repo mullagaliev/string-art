@@ -1,10 +1,12 @@
 const ColorThief = require('color-thief');
 const Handlebars = require('handlebars');
 const getPixels = require('get-pixels');
+const { convert } = require('convert-svg-to-jpeg');
 const rgbHex = require('rgb-hex');
-const triangulate = require('delaunay-triangulate');
 const nanoid = require('nanoid');
 const fs = require('fs');
+
+const triangulate = require('delaunay-triangulate');
 
 const thief = new ColorThief();
 
@@ -26,11 +28,11 @@ class StringArt {
   constructor() {
   }
 
-  static generateTriangulation(image, size) {
+  static generateTriangulation(image, size, type = 'jpg', successCb) {
     const height = size.height;
     const width = size.width;
 
-    getPixels(image, 'image/jpg', (err, pixels) => {
+    getPixels(image, `image/${type}`, (err, pixels) => {
       if (err) {
         console.log(err);
         return;
@@ -41,22 +43,22 @@ class StringArt {
       const GRID_SIZE = 300;
       let GRID_STEP = 5;
 
-      for(let x = 0; x < GRID_SIZE; x+= GRID_STEP) {
-        for(let y = 0; y < GRID_SIZE; y+= GRID_STEP ) {
+      for (let x = 0; x < GRID_SIZE; x += GRID_STEP) {
+        for (let y = 0; y < GRID_SIZE; y += GRID_STEP) {
           // if(x === 0 || y === 0) {
           //   basePoints.push([x, y]);
           // }
           let avg = 0;
           let count = 0;
-          for(let sx = 0; sx < GRID_STEP; sx+=1) {
-            for(let sy = 0; sy < GRID_STEP; sy+=1) {
+          for (let sx = 0; sx < GRID_STEP; sx += 1) {
+            for (let sy = 0; sy < GRID_STEP; sy += 1) {
               const pixelPosition = getPosition(x, y, width, height, GRID_SIZE);
               const R = pixels.data[pixelPosition];
               const G = pixels.data[pixelPosition + 1];
               const B = pixels.data[pixelPosition + 2];
 
               const grey = (0.3 * R) + (0.59 * G) + (0.11 * B);
-              if(grey) {
+              if (grey) {
                 avg += grey;
                 count += 1;
               }
@@ -65,28 +67,28 @@ class StringArt {
           avg = avg / count;
           let randomCount = 1;
           console.log('avg', avg);
-          if(avg < 210) {
+          if (avg < 210) {
             randomCount = 1;
           }
-          if(avg < 180) {
+          if (avg < 180) {
             randomCount = 3;
           }
-          if(avg < 160) {
+          if (avg < 160) {
             randomCount = 5;
           }
-          if(avg < 140) {
+          if (avg < 140) {
             randomCount = 10;
           }
-          if(avg < 100) {
+          if (avg < 100) {
             randomCount = 15;
           }
-          if(avg < 50) {
+          if (avg < 50) {
             randomCount = 25;
           }
-          for(let i = 0; i < randomCount; i+=1 ){
+          for (let i = 0; i < randomCount; i += 1) {
             const point = [x, y];
             point[0] += Math.floor(GRID_STEP * Math.random());
-            point[1] += Math.floor(GRID_STEP  * Math.random());
+            point[1] += Math.floor(GRID_STEP * Math.random());
             basePoints.push(point);
             console.log('point', point);
           }
@@ -151,8 +153,8 @@ class StringArt {
         const t2y = p2[1];
         const t3x = p3[0];
         const t3y = p3[1];
-        const S = 1/2 * Math.abs((t1x - t3x) * (t2y - t3y) - (t2x - t3x) * (t1y - t3y));
-        console.log('S:', S,  1 - S / 30);
+        const S = 1 / 2 * Math.abs((t1x - t3x) * (t2y - t3y) - (t2x - t3x) * (t1y - t3y));
+        console.log('S:', S, 1 - S / 30);
         const points = ' '
             + t1x + ','
             + t1y + ' '
@@ -185,10 +187,21 @@ class StringArt {
         basePoints[triangle[1]],
         basePoints[triangle[2]]
       ]);
-      const name = nanoid(3);
+      const name = nanoid(9);
       console.log('generate: ' + name);
-      fs.writeFileSync('./out/' + name + '.json', JSON.stringify(tris), 'utf-8');
-      fs.writeFileSync('./out/' + name + '-triangulation.svg', svg, 'utf-8');
+      fs.writeFileSync(`./out/${name}.svg`, svg, 'utf-8');
+      convert(svg)
+          .then(jpeg => {
+            const imagePath = `./out/${name}.jpg`;
+            const link = `/out/${name}.jpg`;
+            fs.writeFileSync(imagePath, jpeg, 'utf-8');
+            successCb({
+              fileLink: imagePath,
+              file: jpeg,
+            });
+            return imagePath;
+          })
+          .catch((err) => console.log('err', err));
     });
   }
 }

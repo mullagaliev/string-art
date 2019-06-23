@@ -2,19 +2,240 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="652147a7-7627-4793-ac9f-7886a89f2379" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/inp/3.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/inp/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/inp/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/results/6.png" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/StringArt.js" afterPath="$PROJECT_DIR$/StringArt.js" />
       <change beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change beforePath="$PROJECT_DIR$/templates/template-triangulation.svg" afterPath="$PROJECT_DIR$/templates/template-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/-E4-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/-E4.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/2VK-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/2VK-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/2VK.json" afterPath="$PROJECT_DIR$/old_out/2VK.json" />
+      <change beforePath="$PROJECT_DIR$/out/2fu-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/2fu-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/2fu.json" afterPath="$PROJECT_DIR$/old_out/2fu.json" />
+      <change beforePath="$PROJECT_DIR$/out/2jd-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/2jd-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/2jd.json" afterPath="$PROJECT_DIR$/old_out/2jd.json" />
+      <change beforePath="$PROJECT_DIR$/out/31n-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/31n.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/39g-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/39g.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/3yZ-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/3yZ-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/3yZ.json" afterPath="$PROJECT_DIR$/old_out/3yZ.json" />
+      <change beforePath="$PROJECT_DIR$/out/4yy-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/4yy-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/4yy.json" afterPath="$PROJECT_DIR$/old_out/4yy.json" />
+      <change beforePath="$PROJECT_DIR$/out/6Nc-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/6Nc-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/6Nc.json" afterPath="$PROJECT_DIR$/old_out/6Nc.json" />
+      <change beforePath="$PROJECT_DIR$/out/6OS-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/6OS-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/6OS.json" afterPath="$PROJECT_DIR$/old_out/6OS.json" />
+      <change beforePath="$PROJECT_DIR$/out/6f7-triangulation.svg" afterPath="$PROJECT_DIR$/old_out/6f7-triangulation.svg" />
+      <change beforePath="$PROJECT_DIR$/out/6f7.json" afterPath="$PROJECT_DIR$/old_out/6f7.json" />
+      <change beforePath="$PROJECT_DIR$/out/6qw-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/6qw.json" afterPath="$PROJECT_DIR$/old_out/6qw.json" />
+      <change beforePath="$PROJECT_DIR$/out/7gM-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/7gM.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/7wD-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/7wD.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/85Z-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/85Z.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/87a-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/87a.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/8sl-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/8sl.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9dC-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9dC.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9l6-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9l6.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9le-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9le.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9y_-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/9y_.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ANr-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ANr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/BYN-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/BYN.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/CZc-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/CZc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Cu1-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Cu1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Cvt-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Cvt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/DYV-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/DYV.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Dgr-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Dgr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Dqt-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Dqt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Ewj-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Ewj.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Fa_-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Fa_.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Fbr-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Fbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/GXX-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/GXX.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Giz-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Giz.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/HgC-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/HgC.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hmt-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hmt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hq_-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hq_.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hw0-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Hw0.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ILh-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ILh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/IvR-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/IvR.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/IyQ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/IyQ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/JdO-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/JdO.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/K-G-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/K-G.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/KGa-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/KGa.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/KGe-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/KGe.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Kuw-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Kuw.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/LNw-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/LNw.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/LcJ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/LcJ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Loh-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Loh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/O9X-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/O9X.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/OA1-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/OA1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/PDZ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/PDZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/R2m-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/R2m.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/R8U-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/R8U.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/RUZ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/RUZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/SGj-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/SGj.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/T-3-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/T-3.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/TLH-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/TLH.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/UyE-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/UyE.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/WWi-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/WWi.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Wgw-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Wgw.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/X95-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/X95.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Xbj-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Xbj.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Y6E-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Y6E.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_EF-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_EF.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_Ju-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_Ju.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_KB-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_KB.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_RO-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/_RO.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/adR-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/adR.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/bIJ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/bIJ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/bV_-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/bV_.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/cc7-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/cc7.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/cnR-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/cnR.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dGb-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dGb.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dPh-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dPh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dvZ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/dvZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/f0z-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/f0z.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/g1k-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/g1k.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gKk-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gKk.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gVu-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gVu.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gYq-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gYq.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gms-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/gms.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/hCM-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/hCM.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/i0D-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/i0D.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ia_-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ia_.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/jbe-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/jbe.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/jda-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/jda.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kPt-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kPt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kRm-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kRm.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kVh-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kVh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kfI-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/kfI.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/lth-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/lth.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/lyy-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/lyy.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/m_h-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/m_h.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/nDM-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/nDM.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/nTI-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/nTI.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ntP-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ntP.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/o08-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/o08.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/oiG-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/oiG.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ow5-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ow5.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/rO7-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/rO7.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/rm--triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/rm-.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/sdt-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/sdt.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/sfI-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/sfI.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/tI9-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/tI9.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uEd-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uEd.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uG5-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uG5.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uXu-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uXu.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uxm-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uxm.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uzh-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/uzh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/wTZ-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/wTZ.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/xl3-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/xl3.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/y0r-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/y0r.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ycV-triangulation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/ycV.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,65 +249,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="2112">
+              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="110">
-                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringArt.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StringArt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="166" column="19" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-triangulation.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/template-triangulation.svg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -96,9 +275,7 @@
     <findStrings>
       <find>template</find>
       <find>ColorThief</find>
-      <find>generateTriangulation</find>
       <find>getPixels</find>
-      <find>image</find>
       <find>1.jp</find>
       <find>100</find>
       <find>points</find>
@@ -107,6 +284,9 @@
       <find>rgbHex</find>
       <find>pixelPosition</find>
       <find>triangulate</find>
+      <find>image</find>
+      <find>generateTriangulation</find>
+      <find>size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,12 +295,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/template-triangulation.svg" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/StringArt.js" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -171,6 +351,16 @@
             <path>
               <item name="svg-placeholders-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="svg-placeholders-master" type="462c0819:PsiDirectoryNode" />
+              <item name="inp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svg-placeholders-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svg-placeholders-master" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svg-placeholders-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svg-placeholders-master" type="462c0819:PsiDirectoryNode" />
               <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,6 +387,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old_out" />
       <recent name="$PROJECT_DIR$/inp" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -230,56 +421,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561213923799</updated>
-      <workItem from="1561213925085" duration="15555000" />
+      <workItem from="1561213925085" duration="25786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15555000" />
+    <option name="totallyTimeSpent" value="25786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3784764" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3784764" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43168077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -343,6 +514,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inp/3.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inp/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -356,33 +545,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inp/3.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/template-triangulation.svg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inp/2.jpg">
+    <entry file="file://$PROJECT_DIR$/results/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inp/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inp/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/4.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -392,15 +580,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StringArt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="166" column="19" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/6.png">
+    <entry file="file://$PROJECT_DIR$/results/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -410,23 +590,54 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/1.png">
+    <entry file="file://$PROJECT_DIR$/out/Udp-triangulation.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/out/m1S-triangulation.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inp/AgADAgADjaoxG6fceUiwn3TB3WYNd9i2UQ8ABA7Qu3j39b5EHM8EAAEC.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringArt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="577">
+          <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="2112">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
